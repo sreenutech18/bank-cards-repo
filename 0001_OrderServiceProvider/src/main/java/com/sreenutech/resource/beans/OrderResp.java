@@ -6,8 +6,18 @@ import javax.xml.bind.annotation.XmlRootElement;
 public class OrderResp {
     private int statusCode;
 	private String status;
+	private String errorCode;
+	
 	private String desc;
 	
+	
+	
+	public String getErrorCode() {
+		return errorCode;
+	}
+	public void setErrorCode(String errorCode) {
+		this.errorCode = errorCode;
+	}
 	public int getStatusCode() {
 		return statusCode;
 	}
