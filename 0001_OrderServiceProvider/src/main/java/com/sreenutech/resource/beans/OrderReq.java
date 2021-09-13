@@ -7,6 +7,15 @@ public class OrderReq {
 	
 	private String oid;
 	private String name;
+	private int quantity;
+	
+	
+	public int getQuantity() {
+		return quantity;
+	}
+	public void setQuantity(int quantity) {
+		this.quantity = quantity;
+	}
 	public String getOid() {
 		return oid;
 	}
