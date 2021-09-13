@@ -19,13 +19,13 @@ public class OrderResource {
 	public OrderResp getOrders(OrderReq req) throws OrderServiceException{
 		OrderResp resp = null;
 		if( req == null || req.getOid() == null ){
-			throw new OrderServiceException("not deliverd", "invalid order id");
+			throw new OrderServiceException("400", "invalid order id");
 		}
 		else{
 			resp = new OrderResp();
 			resp.setStatusCode(200);
 			resp.setStatus("delivered");
-			resp.setDesc("good");
+			resp.setDesc("good product");
 		}
 		return resp;
 		
