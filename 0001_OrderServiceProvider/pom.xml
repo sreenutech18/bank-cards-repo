@@ -4,7 +4,7 @@
 	<groupId>com.sreenutech</groupId>
 	<artifactId>0001_OrderServiceProvider</artifactId>
 	<packaging>war</packaging>
-	<version>1.3-SNAPSHOT</version>
+	<version>1.4-SNAPSHOT</version>
 	<name>0001_OrderServiceProvider Maven Webapp</name>
 	<url>http://maven.apache.org</url>
 	<dependencies>
