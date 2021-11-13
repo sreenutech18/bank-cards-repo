@@ -1,6 +1,5 @@
 package com.sreenutech.resource;
 
-import javax.xml.bind.JAXB;
 import javax.xml.bind.JAXBContext;
 import javax.xml.bind.JAXBException;
 import javax.xml.bind.Marshaller;
@@ -11,6 +10,7 @@ public class MarshallingDemo {
 
 	public static void main(String[] args) throws JAXBException {
 		
+		System.out.println(" main() method ");
 		JAXBContext context = JAXBContext.newInstance(OrderReq.class);
 		Marshaller marshaller = context.createMarshaller();
 
