@@ -8,7 +8,7 @@ import javax.ws.rs.Produces;
 import com.sreenutech.resource.beans.OrderReq;
 import com.sreenutech.resource.beans.OrderResp;
 
-@Path("/orders")
+@Path("/orders/v1")
 public class OrderResource {
 	
 	
